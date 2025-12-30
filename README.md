@@ -19,7 +19,15 @@ The dataset for analysis was downloaded and representative of all shortage entri
 
 The dataset consists of 10 columns
 
-| Column Name | Column Description |
+| `(Data Type)` Column Name | Column Description |
 | -- | -- |
-| Termék neve | Name of the Product in Shortage
-Kiszerelés neve	TK szám	Hatóanyag	Forg Eng Jog	ATC kód 1/ATC kód 2	A hiány kezdete	A hiány tervezett vége	A hiány oka	Javaslat a hiánykészítmény pótlására
+| `(Text)` Termék neve | Name & Dosage of the Product in shortage |
+| `(Text)` Kiszerelés neve | Size, Type of packaging & Quantity of the product which is in shortage |
+| `(Text)` TK szám | 'Nyilvántartási szám' - Number assigned to the product, as well as the packaging details assigned to it (Number designates it after the '/' | 
+| `(Text)` Hatóanyag | Active Pharmaceutical Ingredient within the product |	
+| `(Text)` Forg Eng Jog | 'Forgalomba Hozatali Engedély Jogosultja' - Owner of the marketing license for the sale of the product within Hungary |
+| `(Text)` ATC kód 1/ATC kód 2 | ATC code, refers to the code of the Active Pharmaceutical Ingredient within the product based on the Active Therapeutic Chemical or ATC coding system maintained by the WHO |
+| `(Date)` A hiány kezdete	| Start of the reported shortage |
+| `(Date)` A hiány tervezett vége | End of the reported shortage |
+| `(Text)` A hiány oka | Reason for the reported shortage |
+| `(Text)` Javaslat a hiánykészítmény pótlására | Recommendation for the remedying of the reported shortage |
