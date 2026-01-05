@@ -3,7 +3,7 @@ This repository is intended to showcase identifying trends and patterns within t
 
 ---
 
-## Primary Questions which this project aimed to address
+## ✨ Primary Questions which this project aimed to address
 - Analysing the number of shortages of drugs within the Hungarian Pharmaceutical Drug Market based on Year & Companies which hold the license for the Drug
 - Developing an interactive visual based on ATC codes of the drugs within the database
 - Establishing what drugs have currently on-going shortages with planned end-dates
@@ -11,7 +11,7 @@ This repository is intended to showcase identifying trends and patterns within t
 
 ---
 
-## Dataset characteristics
+## 🔍︎ Dataset characteristics
 Dataset was retrieved from the Hungarian NNGYK center ('Nemzeti Népegészségügyi és Gyógyszerészeti Központ').
 Dataset is publicly available from the [NNGYK Pharmaceutical Drug Database](https://ogyei.gov.hu/gyogyszeradatbazis) website by clicking on the **Összes termékhiány** button which downloads the currently registered shortage list within the NNGYK's database as a .csv file.
 
@@ -31,3 +31,9 @@ The dataset consists of 10 columns
 | `(Date)` A hiány tervezett vége | End of the reported shortage |
 | `(Text)` A hiány oka | Reason for the reported shortage |
 | `(Text)` Javaslat a hiánykészítmény pótlására | Recommendation for the remedying of the reported shortage |
+
+
+
+---
+
+
